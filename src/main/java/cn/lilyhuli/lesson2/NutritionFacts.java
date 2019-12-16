@@ -84,12 +84,12 @@ public class NutritionFacts {
 	private final int carbohydrate;
 
 	public NutritionFacts(Builder builder) {
-		servingSize = builder.servingSize;
-		servings = builder.servings;
-		calories = builder.calories;
-		fat = builder.fat;
-		sodium = builder.sodium;
-		carbohydrate = builder.carbohydrate;
+		this.servingSize = builder.servingSize;
+		this.servings = builder.servings;
+		this.calories = builder.calories;
+		this.fat = builder.fat;
+		this.sodium = builder.sodium;
+		this.carbohydrate = builder.carbohydrate;
 	}
 
 	public static class Builder {
@@ -103,6 +103,7 @@ public class NutritionFacts {
 		private int sodium = 0;
 		private int carbohydrate = 0;
 
+		//必选的
 		public Builder(int servingSize, int servings) {
 			this.servingSize = servingSize;
 			this.servings = servings;

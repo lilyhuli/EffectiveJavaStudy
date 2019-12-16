@@ -10,6 +10,7 @@ public class VendingManager {
 		Ivending drink = new DrinkVending();
 
 		candy.process();
+
 		System.out.println("*********************");
 		drink.process();
 		if(drink instanceof VendingService)
