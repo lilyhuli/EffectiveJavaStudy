@@ -1,4 +1,4 @@
-package cn.lilyhuli.lesson2;
+package cn.lilyhuli.chapter2.lesson2;
 
 /**
  * @author tangd-a

@@ -1,6 +1,4 @@
-package cn.lilyhuli.lesson2;
-
-import java.time.temporal.ValueRange;
+package cn.lilyhuli.chapter2.lesson2;
 
 /**
  * Telescoping constructor pattern - does not scale well

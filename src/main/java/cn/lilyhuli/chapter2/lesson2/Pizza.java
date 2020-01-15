@@ -1,4 +1,4 @@
-package cn.lilyhuli.lesson2;
+package cn.lilyhuli.chapter2.lesson2;
 
 import java.util.EnumSet;
 import java.util.Objects;
